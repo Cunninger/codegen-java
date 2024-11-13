@@ -2,8 +2,7 @@
 
 ### 📝 使用方法
 
-1. 点击 Code 下载对应的 zip 压缩包到你的电脑上，新建一个文件夹，名称随意起，我这里使用 work-space，将 zip 解压到文件夹中，使用 IDEA 导入项目（导入过程很简答，已省略）
-2. easyjava 项目结构
+1. easyjava 项目结构
 
 ```java
 Folder PATH listing
@@ -62,18 +61,13 @@ D:.
                     SimplePage.txt ----------------- 页面基础类
 ```
 
-3.删除 easyjava-demo 文件夹（之前生成好的，也可以保留）
-
-<div align="center" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
-    <img src="https://github.com/KunspireUp/workspace-easyjava/blob/main/Untitled.png" alt="目录结构">
-</div>
 
 1. 在 IDEA 中找到 application.properties 这个文件，修改你数据库的配置
 
 ```java
 # 数据库配置属性
 db.driver.name=com.mysql.cj.jdbc.Driver
-db.url=jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false
+db.url=jdbc:mysql://localhost:3306/<数据库名字>?useUnicode=true&characterEncoding=utf-8&useSSL=false
 db.username=root
 db.password=root
 ```
