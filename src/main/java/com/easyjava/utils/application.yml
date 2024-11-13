@@ -1,0 +1,46 @@
+#bean:
+#  date:
+#    format:
+#      class: import com.fasterxml.jackson.annotation.JsonFormat;
+#      expression: '@JsonFormat(pattern = "%s", timezone = "GMT+8")'
+#    unformat:
+#      class: import org.springframework.format.annotation.DateTimeFormat;
+#      expression: '@DateTimeFormat(pattern = "%s")'
+#comment:
+#  author: KunSpire
+## 数据库配置
+#db:
+#  driver:
+#    name: com.mysql.cj.jdbc.Driver
+#  password: 1234
+#  url: jdbc:mysql://localhost:3306/easylive?useUnicode=true&characterEncoding=utf-8&useSSL=false
+#  username: root
+#ignore:
+#  bean:
+#    tojson:
+#      class: import com.fasterxml.jackson.annotation.JsonIgnore;
+#      expression: '@JsonIgnore'
+#      field: companyId,status
+#  table:
+#    prefix: true
+#package:
+#  base: com.easyjava
+#  controller: controller
+#  enums: enums
+#  exception: exception
+#  mappers: mappers
+#  po: entity.po
+#  query: entity.query
+#  service: service
+#  service.impl: service.impl
+#  utils: utils
+#  vo: entity.vo
+## 文件输出路径:
+#path:
+#  base: D:/Develop/work-develop/workspace-easyjava/easyjava-demo/src/main/
+#suffix:
+#  bean:
+#    query: Query
+#    query.fuzzy: Fuzzy
+#    query.time.end: End
+#  mappers: Mapper

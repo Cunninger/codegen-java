@@ -31,7 +31,12 @@ public class StringUtils {
 		return field.substring(0, 1).toLowerCase() + field.substring(1);
 	}
 
+
+
 	public static void main(String[] args) {
 		System.out.println(lowerCaseFirstLetter("Company"));
 	}
+
+
+
 }
